@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #212428;
+}
+
+.mt-200 {
+  margin-top: 198px;
+}
+.font-14{
+  font-size: 14px;
+}
+.let-space{
+  letter-spacing: 3px;
+}
+
+.let-space-social{
+  letter-spacing: 2px;
+}
+
+.let-space-features{
+  letter-spacing: 1px;
+}
+
+.margin-left-70{
+margin-left: 70px;
+}
+
+.height-338{
+  height: 338px;
+}
+
+.border-for-box{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.img-box{
+box-shadow: rgba(0, 0, 0, 0.56) 
+0px 22px 70px 4px; 
+}
+.img-box-more{
+box-shadow: rgba(0, 0, 0, 0.56) 
+0px 22px 70px 4px; 
+}
+
+.img-box-white{
+box-shadow: rgba(214, 212, 212, 0.03) 
+-7px -10px 20px 3px
+}
+
+.divider-saprate{
+  /* width: 90%; */
+  height: 1px;
+  background: rgb(0, 0, 0);
+  margin: 65px;
+}
+
+.divider-saprate-footer{
+  /* width: 90%; */
+  height: 1px;
+  background: rgb(0, 0, 0);
+  margin: 25px;
+  margin-left: 70px;
+}
+
