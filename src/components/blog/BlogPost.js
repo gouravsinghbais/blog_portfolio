@@ -6,20 +6,24 @@ import { useParams } from 'react-router-dom';
 import Navbar from '../Navbar';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeRaw from 'rehype-raw'
+import useAnalyticsEventTracker from '../../useAnalyticsEventTracker';
 
 
 const BlogPost = ({ match }) => {
   const [content, setContent] = useState('');
   const { id } = useParams();
   const blog = blogsMetadata.find(blog => blog.id === id);
+  const gaEventTracker = useAnalyticsEventTracker('BlogPost');
   useEffect(() => {
 
+   
     if (blog) {
       const fetchBlogContent = async () => {
         try {
           const response = await fetch(require(`../../blogs/${blog.fileName}`));
+          gaEventTracker(blog.fileName)
           const text = await response.text();
-          console.log(content)
+ 
           setContent(text);
         } catch (error) {
           console.error('Error fetching the blog content:', error);

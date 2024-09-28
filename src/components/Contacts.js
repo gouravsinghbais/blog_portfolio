@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FiLinkedin } from "react-icons/fi";
 import { FaXTwitter, FaMedium } from "react-icons/fa6";
 import emailjs from '@emailjs/browser';
+import useAnalyticsEventTracker from '../useAnalyticsEventTracker';
 
 const Contacts = () => {
     const [name, setName] = useState('');
@@ -10,7 +11,9 @@ const Contacts = () => {
     const [subject, setSubject] = useState('');
     const [msg, setMsg] = useState('');
 
+    const gaEventTracker = useAnalyticsEventTracker('Contact US');
     const sendEmail = (e) => {
+        gaEventTracker('send email')
         e.preventDefault();
 
         const serviceId = 'service_kyiq9fp';
