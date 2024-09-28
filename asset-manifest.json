@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ad8c206.css",
-    "main.js": "/static/js/main.15227159.js",
+    "main.js": "/static/js/main.f86d6131.js",
     "static/js/976.546a3c6d.chunk.js": "/static/js/976.546a3c6d.chunk.js",
     "static/js/893.0e562309.chunk.js": "/static/js/893.0e562309.chunk.js",
     "static/js/453.7130ef0b.chunk.js": "/static/js/453.7130ef0b.chunk.js",
@@ -11,13 +11,13 @@
     "static/media/Build Your Own Text-to-Speech System with Python and Comet ML.md": "/static/media/Build Your Own Text-to-Speech System with Python and Comet ML.dbcd7fb523e6d866332a.md",
     "index.html": "/index.html",
     "main.5ad8c206.css.map": "/static/css/main.5ad8c206.css.map",
-    "main.15227159.js.map": "/static/js/main.15227159.js.map",
+    "main.f86d6131.js.map": "/static/js/main.f86d6131.js.map",
     "976.546a3c6d.chunk.js.map": "/static/js/976.546a3c6d.chunk.js.map",
     "893.0e562309.chunk.js.map": "/static/js/893.0e562309.chunk.js.map",
     "453.7130ef0b.chunk.js.map": "/static/js/453.7130ef0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ad8c206.css",
-    "static/js/main.15227159.js"
+    "static/js/main.f86d6131.js"
   ]
 }
