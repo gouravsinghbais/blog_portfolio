@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import BlogPost from './components/blog/BlogPost';
-import ReactGA from 'react-ga4';
+import ReactGA from 'react-ga';
 
 const App = () => {
   const TRACKING_ID = "G-51X21L9TRF";
