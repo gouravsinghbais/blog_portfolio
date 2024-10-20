@@ -16,7 +16,7 @@ const BlogPost = ({ match }) => {
   const gaEventTracker = useAnalyticsEventTracker('BlogPost');
   useEffect(() => {
 
-    console.log({blog,id})
+   
    
     if (blog) {
       const fetchBlogContent = async () => {

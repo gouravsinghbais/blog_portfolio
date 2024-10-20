@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import BlogPost from './components/blog/BlogPost';
@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     ReactGA.initialize({
-      trackingId: "G-51X21L9TRF"
+      trackingId: TRACKING_ID
     });
 
     ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });
@@ -26,7 +26,7 @@ const App = () => {
     });
 
     ReactGA.pageview(window.location.pathname + window.location.search);
-  }, [])
+  }, []);
 
   return (
     <>
