@@ -1,6 +1,6 @@
 [
     {
-      "id": "Build Your Own Text-to-Speech System with Python and Comet ML",
+      "id": 1,
       "title": "Build Your Own Text-to-Speech System with Python and Comet ML",
       "description": "A hands-on guide to creating your text-to-speech system.",
       "image": "../blog_img/Featured_Image_TTS.jpg",
@@ -8,7 +8,7 @@
       "pin": true
     },
     {
-      "id": "Train Your Own Speech Recognition Model in 5 Simple Steps",
+      "id": 2,
       "title": "Train Your Own Speech Recognition Model in 5 Simple Steps",
       "description": "A quick tutorial to get ready your own speech recognition model",
       "image": "../blog_img/text-to-speech/Text-to-speech.png",
@@ -16,7 +16,7 @@
       "pin": true
     },
     {
-        "id": "Train Your Own YoloV7 Object Detection Model",
+        "id": 3,
         "title": "Train Your Own YoloV7 Object Detection Model",
         "description": "A guide to train YoloV7 model on custom dataset using Python",
         "image": "../blog_img/yolov7_training/yolo_model_comparison.png",
@@ -24,7 +24,7 @@
         "pin": true
     },
     {
-      "id": "example3",
+      "id": 4,
       "title": "Example Blog Post",
       "description": "This is an example blog post.",
       "image": "../blog_img/road-sign-direction-perforated-paper-arrow-340x250.jpg",

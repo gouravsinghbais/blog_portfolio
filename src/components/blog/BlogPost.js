@@ -12,15 +12,17 @@ import useAnalyticsEventTracker from '../../useAnalyticsEventTracker';
 const BlogPost = ({ match }) => {
   const [content, setContent] = useState('');
   const { id } = useParams();
-  const blog = blogsMetadata.find(blog => blog.id === id);
+  const blog = blogsMetadata.find(blog => blog.id == id);
   const gaEventTracker = useAnalyticsEventTracker('BlogPost');
   useEffect(() => {
 
+    console.log({blog,id})
    
     if (blog) {
       const fetchBlogContent = async () => {
         try {
           const response = await fetch(require(`../../blogs/${blog.fileName}`));
+          console.log(JSON.stringify(response))
           gaEventTracker(blog.fileName)
           const text = await response.text();
  
